@@ -1,3 +1,5 @@
+console.log('Bionic Text Installed');
+
 function bionicText() {
   function bionicize(element) {
     [...element.childNodes].forEach((e) => {
