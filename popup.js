@@ -1,6 +1,7 @@
 // When the button is clicked, inject setPageBackgroundColor into current page
 changeColor.addEventListener("click", async () => {
     alert("ASDFADSFASD")
+    console.log("ASDFASDFA")
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   
     chrome.scripting.executeScript({
