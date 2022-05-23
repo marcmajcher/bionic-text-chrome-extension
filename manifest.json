@@ -1,0 +1,25 @@
+{
+    "name": "Bionic Text",
+    "description": "Bionic Text Readibility",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", "activeTab", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/img/bionic_text16.png",
+            "32": "/img/bionic_text32.png",
+            "48": "/img/bionic_text48.png",
+            "128": "/img/bionic_text128.png"
+        }
+    },
+    "icons": {
+        "16": "/img/bionic_text16.png",
+        "32": "/img/bionic_text32.png",
+        "48": "/img/bionic_text48.png",
+        "128": "/img/bionic_text128.png"
+    }
+}
